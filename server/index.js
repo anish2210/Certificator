@@ -6,7 +6,7 @@ const sheets = google.sheets('v4');
 async function getSheetData() {
   // Load your credentials
   const auth = new google.auth.GoogleAuth({
-    keyFile: './certificate-generator-435410-2802c42872e3.json', // Path to your JSON key file
+    keyFile: './secret/certificate-generator-435410-0b6d7b3e2407.json', // Path to your JSON key file
     scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
   });
 
